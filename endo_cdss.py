@@ -550,4 +550,4 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Base()) as demo:
         ]
     )
 
-demo.launch()
+demo.launch(server_name="0.0.0.0", server_port=7860)
