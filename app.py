@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1AjXGZE8CjDww85rRNs37B5deCd7tzDPJ
 """
 
-!pip install -q gradio openai-whisper torch
-
 import gradio as gr
 import whisper
 import json
